@@ -25,5 +25,11 @@ artifacts/*.pkl
 .DS_Store
 Thumbs.db
 
-# uv
-uv.lock
+# LaTeX build artifacts
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+report/*.fls
+report/*.fdb_latexmk
+report/*.synctex.gz
