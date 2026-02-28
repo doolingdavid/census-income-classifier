@@ -1,0 +1,52 @@
+Decision Tree Segmentation Rules
+============================================================
+Features used (10): age, tax filer stat, education, weeks worked in year, major occupation code, sex, detailed household and family stat, num persons worked for employer, dividends from stocks, major industry code
+Max depth: 4, Leaves: 16
+============================================================
+
+|--- weeks worked in year <= 36.50
+|   |--- dividends from stocks <= 124.50
+|   |   |--- age <= 31.50
+|   |   |   |--- weeks worked in year <= 20.50
+|   |   |   |   |--- weights: [48010981.60, 225961.55] class: 0
+|   |   |   |--- weeks worked in year >  20.50
+|   |   |   |   |--- weights: [3300063.29, 428601.08] class: 0
+|   |   |--- age >  31.50
+|   |   |   |--- weeks worked in year <= 8.50
+|   |   |   |   |--- weights: [24245786.79, 3190614.29] class: 0
+|   |   |   |--- weeks worked in year >  8.50
+|   |   |   |   |--- weights: [4927717.70, 2540647.97] class: 0
+|   |--- dividends from stocks >  124.50
+|   |   |--- dividends from stocks <= 3991.50
+|   |   |   |--- sex <= 0.50
+|   |   |   |   |--- weights: [1946950.59, 701651.87] class: 0
+|   |   |   |--- sex >  0.50
+|   |   |   |   |--- weights: [1234422.49, 1794100.92] class: 1
+|   |   |--- dividends from stocks >  3991.50
+|   |   |   |--- dividends from stocks <= 9993.00
+|   |   |   |   |--- weights: [514711.71, 1131017.12] class: 1
+|   |   |   |--- dividends from stocks >  9993.00
+|   |   |   |   |--- weights: [247738.63, 2191548.37] class: 1
+|--- weeks worked in year >  36.50
+|   |--- age <= 28.50
+|   |   |--- age <= 24.50
+|   |   |   |--- detailed household and family stat <= 19.50
+|   |   |   |   |--- weights: [3593470.39, 195274.96] class: 0
+|   |   |   |--- detailed household and family stat >  19.50
+|   |   |   |   |--- weights: [3638277.64, 688293.41] class: 0
+|   |   |--- age >  24.50
+|   |   |   |--- dividends from stocks <= 48.00
+|   |   |   |   |--- weights: [5658279.88, 3041816.10] class: 0
+|   |   |   |--- dividends from stocks >  48.00
+|   |   |   |   |--- weights: [293308.93, 947514.67] class: 1
+|   |--- age >  28.50
+|   |   |--- sex <= 0.50
+|   |   |   |--- dividends from stocks <= 0.50
+|   |   |   |   |--- weights: [17330593.21, 14440641.83] class: 0
+|   |   |   |--- dividends from stocks >  0.50
+|   |   |   |   |--- weights: [3229562.36, 10976666.57] class: 1
+|   |   |--- sex >  0.50
+|   |   |   |--- dividends from stocks <= 0.50
+|   |   |   |   |--- weights: [17820505.13, 57491486.70] class: 1
+|   |   |   |--- dividends from stocks >  0.50
+|   |   |   |   |--- weights: [2636823.02, 43081943.95] class: 1

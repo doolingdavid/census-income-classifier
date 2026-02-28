@@ -1,0 +1,18 @@
+[project]
+name = "census-income-classifier"
+version = "0.1.0"
+description = "Income classification and customer segmentation using Census Bureau data"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas",
+    "numpy",
+    "scikit-learn",
+    "lightgbm",
+    "optuna",
+    "shap",
+    "matplotlib",
+    "seaborn",
+    "jupyter",
+    "hiplot",
+    "joblib",
+]

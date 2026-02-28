@@ -1,0 +1,39 @@
+feature,importance
+age,0.8578146963048415
+tax filer stat,0.7131594165385939
+education,0.5628709162904171
+weeks worked in year,0.5394768482079171
+major occupation code,0.3201503334481662
+sex,0.3008263985986268
+detailed household and family stat,0.2120833743616115
+num persons worked for employer,0.2069603743952145
+dividends from stocks,0.18852162128514538
+major industry code,0.16951021449693632
+detailed household summary in household,0.16662470543217173
+detailed occupation recode,0.12135140772092254
+family members under 18,0.1164375706704713
+capital gains,0.09361983930929256
+marital stat,0.08908136202164992
+class of worker,0.05489322858569093
+veterans benefits,0.04523808159879235
+race,0.04348720427452771
+wage per hour,0.042130445990110746
+detailed industry recode,0.03978505006425956
+capital losses,0.0316022613163088
+hispanic origin,0.030649737965965745
+full or part time employment stat,0.03014791730917065
+country of birth mother,0.026587047492526956
+country of birth father,0.02655782643490671
+country of birth self,0.02595173602230991
+own business or self employed,0.022642851623154468
+migration code-change in msa,0.017224935014179914
+migration code-change in reg,0.011475006515279449
+member of a labor union,0.010423448810260636
+live in this house 1 year ago,0.008954783075748218
+enroll in edu inst last wk,0.00879171357715966
+migration code-move within reg,0.007071752733259737
+citizenship,0.007066466239431502
+region of previous residence,0.007051382490944664
+reason for unemployment,0.005865313512629387
+state of previous residence,0.004940604176554369
+migration prev res in sunbelt,0.0041535989146261176
