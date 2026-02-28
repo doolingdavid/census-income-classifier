@@ -209,3 +209,9 @@ After running all scripts, the `artifacts/` directory contains:
 | `data_splits.pkl` | Train/test data splits (generated locally, not in repo) |
 
 The interactive HiPlot visualization (`parallel_coordinates.html`) is a standalone file that can be opened directly in any web browser — no server required.
+
+---
+
+## Project Report
+
+The full project report is located at [`report/report.pdf`](report/report.pdf). It covers data exploration, preprocessing, model architecture (why LightGBM for tabular data), training procedure, evaluation results, SHAP-based explainability, segmentation rules, business recommendations, and references. The LaTeX source is at `report/report.tex`.
